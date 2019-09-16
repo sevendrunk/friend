@@ -1,0 +1,126 @@
+	  *{
+		  padding:0;
+		  margin:0;
+	  }
+	 html{
+      font-size: 62.5%;
+    }
+    .header-img{
+	  position: relative;
+      height:20rem;
+	  width: 100%;
+	  background-image: url(images/1531117553657.jpeg);
+	  background-size: 100%;
+    }
+	.header{
+		position: relative;
+		background: #373a3d;
+		line-height: 4rem;
+		width: 100%;
+	}
+	.header>span:first-child{
+		position: absolute;
+		left: 0.5rem;
+		font-size: 1.6rem;
+		color: white;
+	}
+	.header-title{
+		text-align: center;
+		font-size: 1.6rem;
+		color: white;
+	}
+	.header img{
+		position: absolute;
+		width: 2.5rem;
+		right: 0;
+		padding: 1rem;
+		top:0;
+	}
+	.header-info{
+		position: absolute;
+		bottom: 0;
+		padding: 1rem;
+		right: 0;
+		padding-right: 1rem;
+	}
+	.info-img{
+		width: 4rem;
+		height: 4rem;
+		float: left;
+		padding:1rem;
+	}
+	.header-info>p{
+		float: left;
+		font-size:1.5rem;
+		padding: 1rem;
+		color: white;
+	}
+	.container{
+		position: relative;
+		border-bottom: 1px solid #f3f3f3;
+		width: 100%;
+		overflow: hidden;
+	}
+	.content{
+		width: 70%;
+		padding: 1rem;
+		float: left;
+		font-size: 1.5rem;
+		margin-right: 1rem;
+	}
+	.content>span{
+		font-weight: 600;
+	}
+	.wrapper{
+		position: relative;
+		background-color: #F3F3F3;
+		width: 100%;
+		margin-top: 1rem;
+		padding-right: 2rem;
+		height: 6rem;
+	}
+	.wrapper-info{
+		position: relative;
+		height: 6rem;
+		font-size: 1.2rem;
+	}
+	.infos{
+		width: 70%;
+		float: left;
+		margin-top: 0.5rem;
+	}
+	.comment{
+		float: left;
+	}
+	.zans{
+		width: 100%;
+		height: 6rem;
+	}
+	.zan{
+		color: darkgray;
+		float: left;
+		margin:0.7rem 5rem 0.1rem 0rem;
+	}
+	.time{
+		font-size: 1.1rem;
+		margin: 0.5rem 0;
+	}
+	.comment-list{
+		width: 100%;
+	}
+	.comment-item>span:first-child{
+		color: #5bafff;
+		font-size: 1.25rem;
+	}
+	.comment-item>span:last-child{
+		font-size: 1.25rem;
+	}
+	.comment-show{
+		display: block;
+	}
+	.comment-hidden{
+		display: none;
+	}
+	.zhedie{
+		display: none;
+	}
