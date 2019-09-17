@@ -18,14 +18,23 @@
 		line-height: 4rem;
 		width: 100%;
 	}
-	.header>span:first-child{
+	.header>span{
 		position: absolute;
-		left: 0.5rem;
+		left: 0rem;
 		font-size: 1.6rem;
 		color: white;
+		padding-left: 3.5rem;
+		line-height: 4rem;
 	}
 	.header-title{
 		text-align: center;
+		font-size: 1.6rem;
+		color: white;
+	}
+	.header>img:first-child{
+		position: absolute;
+		left: 0;
+		top: 0;
 		font-size: 1.6rem;
 		color: white;
 	}
@@ -35,6 +44,7 @@
 		right: 0;
 		padding: 1rem;
 		top:0;
+		line-height: 4rem;
 	}
 	.header-info{
 		position: absolute;
@@ -52,8 +62,9 @@
 	.header-info>p{
 		float: left;
 		font-size:1.5rem;
-		padding: 1rem;
+		padding: 0.5rem;
 		color: white;
+		margin-top: 1.4rem;
 	}
 	.container{
 		position: relative;
@@ -130,7 +141,7 @@
 		margin-top: 1rem;
 	}
 	.img-wrapper1 img{
-		width: 45%;
+		width:48%;
 	}
 	.img-wrapper img{
 		width:60%;
